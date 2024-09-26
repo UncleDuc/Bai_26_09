@@ -1,25 +1,53 @@
-import logo from './logo.svg';
-import './App.css';
+import { HeadInfo } from "./components/HeadInfo/HeadInfo";
+import { HeadList } from "./components/HeadList/HeadList";
+import { Section1 } from "./components/Section1/Section1";
+import { Section2 } from "./components/Section2/Section2";
+import { Section3 } from "./components/Section3/Section3";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+   <div className="App">
+      <HeadInfo/>
+      <HeadList/>
+      <Section1/>
+      <Section2/>
+      <div className="w-full mx-auto">
+        <div className="w-[1536px] mx-auto grid grid-cols-3 gap-10 items-start">
+          <Section3
+            image ="https://res.cloudinary.com/easy-frontend/image/upload/v1624063424/blog/lo-trinh-fe_zzhxml.png"
+            discount = "28%"
+            desc ="[Tên Khóa học] cách hõ đoạn văn bản bất kì nhanh trong reacjt"
+            price = "1,272,000đ"
+            oldPrice = "1,272,000đ"
+            imageUser = "https://cdn-icons-png.flaticon.com/512/149/149071.png"
+            nameUser = "Nguyễn Minh Hà"
+            totalUser = "272"
+            time = "17h39p"
+          />
+          <Section3
+            image ="https://res.cloudinary.com/easy-frontend/image/upload/v1624063424/blog/lo-trinh-fe_zzhxml.png"
+            discount = "28%"
+            desc ="[Tên Khóa học] cách hõ đoạn văn bản bất kì nhanh trong reacjt"
+            price = "1,272,000đ"
+            oldPrice = "1,272,000đ"
+            imageUser = "https://cdn-icons-png.flaticon.com/512/149/149071.png"
+            nameUser = "Nguyễn Minh Hà"
+            totalUser = "272"
+            time = "17h39p"
+          />
+          <Section3
+            image ="https://res.cloudinary.com/easy-frontend/image/upload/v1624063424/blog/lo-trinh-fe_zzhxml.png"
+            discount = "28%"
+            desc ="[Tên Khóa học] cách hõ đoạn văn bản bất kì nhanh trong reacjt"
+            price = "1,272,000đ"
+            oldPrice = "1,272,000đ"
+            imageUser = "https://cdn-icons-png.flaticon.com/512/149/149071.png"
+            nameUser = "Nguyễn Minh Hà"
+            totalUser = "272"
+            time = "17h39p"
+          />
+        </div>
+      </div>
+   </div>
+  )
 }
-
-export default App;
