@@ -3,7 +3,7 @@ export const HeadList = () =>{
     return(
         <>
            <nav className="w-full bg-[#ddd]">
-                <div className="container w-4/5 mx-auto flex justify-between grid-cols-3 items-center py-2 px-4 text-[24px]">
+                <div className="container w-4/5 mx-auto flex justify-between grid-cols-3 items-center py-2 px-4 text-[22px]">
                     <div className="inner-left w-2/5 flex justify-between items-center ">
                         <a className=" hover:text-orange-500" href="/">
                             TRANG CHỦ

@@ -9,8 +9,8 @@ import { CiBellOn } from "react-icons/ci";
 export const HeadInfo = () => {
     return (
         <>
-            <div className="w-full flex justify-around bg-[#383F4F] h-[50px] text-white text-[20px]">
-                <div className="w-[1536px] flex justify-between">
+            <div className="w-full flex justify-around bg-[#383F4F] h-[50px] text-white text-[18px]">
+                <div className="w-4/5 mx-auto flex justify-between">
                     <div className="flex justify-between items-center">
                         <p className="font-light">Have any question? Contact now</p>
                         <MdEmail className="ml-[30px] mr-[5px] text-orange-400"/>
@@ -28,7 +28,7 @@ export const HeadInfo = () => {
                             <img src="https://www.svgrepo.com/show/382102/male-avatar-boy-face-man-user-8.svg" 
                                 className="object-cover rounded w-[36px] h-[36px]" 
                                 alt="User" />
-                            <p className=" flex items-center text-[21px] ml-[5px]">Hi Adam <IoIosArrowDown/></p>
+                            <p className=" flex items-center text-[18px] ml-[5px]">Hi Adam <IoIosArrowDown/></p>
                         </div>
                     </div>
                 </div>

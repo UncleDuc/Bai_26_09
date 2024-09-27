@@ -11,43 +11,17 @@ export default function App() {
       <HeadList/>
       <Section1/>
       <Section2/>
-      <div className="w-full mx-auto">
-        <div className="w-[1536px] mx-auto grid grid-cols-3 gap-10 items-start">
-          <Section3
-            image ="https://res.cloudinary.com/easy-frontend/image/upload/v1624063424/blog/lo-trinh-fe_zzhxml.png"
-            discount = "28%"
-            desc ="[Tên Khóa học] cách hõ đoạn văn bản bất kì nhanh trong reacjt"
-            price = "1,272,000đ"
-            oldPrice = "1,272,000đ"
-            imageUser = "https://cdn-icons-png.flaticon.com/512/149/149071.png"
-            nameUser = "Nguyễn Minh Hà"
-            totalUser = "272"
-            time = "17h39p"
-          />
-          <Section3
-            image ="https://res.cloudinary.com/easy-frontend/image/upload/v1624063424/blog/lo-trinh-fe_zzhxml.png"
-            discount = "28%"
-            desc ="[Tên Khóa học] cách hõ đoạn văn bản bất kì nhanh trong reacjt"
-            price = "1,272,000đ"
-            oldPrice = "1,272,000đ"
-            imageUser = "https://cdn-icons-png.flaticon.com/512/149/149071.png"
-            nameUser = "Nguyễn Minh Hà"
-            totalUser = "272"
-            time = "17h39p"
-          />
-          <Section3
-            image ="https://res.cloudinary.com/easy-frontend/image/upload/v1624063424/blog/lo-trinh-fe_zzhxml.png"
-            discount = "28%"
-            desc ="[Tên Khóa học] cách hõ đoạn văn bản bất kì nhanh trong reacjt"
-            price = "1,272,000đ"
-            oldPrice = "1,272,000đ"
-            imageUser = "https://cdn-icons-png.flaticon.com/512/149/149071.png"
-            nameUser = "Nguyễn Minh Hà"
-            totalUser = "272"
-            time = "17h39p"
-          />
-        </div>
-      </div>
-   </div>
+      <Section3
+                 image ="https://res.cloudinary.com/easy-frontend/image/upload/v1624063424/blog/lo-trinh-fe_zzhxml.png"
+                  discount = "28%"
+                  desc ="[Tên Khóa học] cách hõ đoạn văn bản bất kì nhanh trong reacjt"
+                  price = "1,272,000đ"
+                  oldPrice = "1,272,000đ"
+                  imageUser = "https://cdn-icons-png.flaticon.com/512/149/149071.png"
+                  nameUser = "Nguyễn Minh Hà"
+                  totalUser = "272"
+                  time = "17h39p"
+                />
+    </div>
   )
 }
